@@ -1,0 +1,4 @@
+#!/bin/bash
+main="EzTravel.TravelMain"
+cd classes
+java -cp .:../src/jar/* $main "$@"
